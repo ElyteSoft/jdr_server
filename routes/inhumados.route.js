@@ -5,6 +5,6 @@ const router = express.Router();
 const { inhumadosController } = require('../controllers');
 
 // Define your routes
-router.get('/', inhumadosController.getAllInhumados);
+router.get('/:name', inhumadosController.getInhumadoByInhumadoName);
 
 module.exports = router;

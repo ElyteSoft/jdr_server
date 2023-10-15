@@ -6,8 +6,6 @@ require('dotenv').config();
 
 const port = process.env.PORT || 3000;
 
-console.log(process.env.DATABASE_URL_DEV);
-
 app.use('/', routes);
 
 app.use(cors());
