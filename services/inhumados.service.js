@@ -1,5 +1,4 @@
-const { inhumados, Propietarios } = require('../models');
-const httpStatus = require('http-status');
+const { inhumados } = require('../models');
 const { Op } = require('sequelize');
 
 const getAllInhumados = async (req, res) => {
