@@ -56,14 +56,10 @@ const clientes = sequelize.define(
     observaciones: {
       type: DataTypes.TEXT,
       allowNull: true,
-    },
-    Column13: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
+    }
   },
   {
-    freezeTableName: true,
+    timestamps: false,
   }
 );
 

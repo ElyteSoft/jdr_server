@@ -1,5 +1,4 @@
 const { clientes } = require('../models');
-const httpStatus = require('http-status');
 const { Op } = require('sequelize');
 
 const getClientByClientName = async (name) => {
